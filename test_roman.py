@@ -9,8 +9,12 @@ class TestRoman(unittest.TestCase):
         self.assertEqual(convert_roman_numerals("II"), 2) 
 
     def test_III(self):  
-        self.assertEqual(convert_roman_numerals("III"), 3)  
+        self.assertEqual(convert_roman_numerals("III"), 3)
+
+    def test_IV(self):
+        self.assertEqual(convert_roman_numerals("IV"), 4)
  
+   
 
 if __name__ == "__main__":  
     unittest.main()
