@@ -26,6 +26,12 @@ class TestRoman(unittest.TestCase):
     def test_X(self):
         self.assertEqual(convert_roman_numerals("X"), 10)
 
+    def test_XL(self):
+        self.assertEqual(convert_roman_numerals("XL") , 40)
+
+  
+
+    
     
     
 
